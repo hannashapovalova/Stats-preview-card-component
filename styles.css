@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondaty-font: 'Lexend Deca', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
 }
 .main_container {
     display: flex;
