@@ -96,7 +96,6 @@ img {
     font-size: 11px; 
     text-align: center;
     font-size: 11px;
-    text-align: center; 
     position: fixed;
     left: 0;
     bottom: 0;
@@ -110,3 +109,58 @@ img {
     color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 630px) {
+    .main_container {
+        margin-top: 0;
+        flex-direction: column-reverse;
+        max-height: 1000px;
+    }
+
+    .left_side_container {
+        padding: 40px;
+        
+    }
+
+    .article-container {
+        text-align: center;
+    }
+
+    .article {
+        font-size: 17px;
+        line-height: 1.7;
+        color: var(--slightly-transparent-white-stat-headings);
+    }
+
+    .results_container {
+
+        flex-direction: column;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .result_container {
+        padding: 20px;
+    }
+
+    .number {
+        font-size: 30px;
+    }
+    
+    .item {
+        font-size: 15px;
+    }
+
+    .image_container {
+        border-radius: 10px 10px 0 0;
+    }
+
+    /* FOOTER */
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+        margin: 25px auto;
+        position: relative;
+        font-family: var(--primary-font);
+        color: var(--slightly-transparent-white-stat-headings);
+    }
+  }
